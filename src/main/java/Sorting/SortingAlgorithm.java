@@ -2,5 +2,7 @@ package Sorting;
 
 public interface SortingAlgorithm {
 
-    <T> void sort(T[] input);
+    int[] sort(int[] unsortedArray);
+
+    //<T> void sort(T[] input);
 }
