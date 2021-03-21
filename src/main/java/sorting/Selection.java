@@ -1,4 +1,4 @@
-package Sorting;
+package sorting;
 
 public class Selection implements SortingAlgorithm {
     public int[] sort(int[] unsortedArray) {

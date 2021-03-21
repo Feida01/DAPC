@@ -1,8 +1,8 @@
-package Factories;
+package factories;
 
-import Sorting.Insertion;
-import Sorting.Selection;
-import Sorting.SortingAlgorithm;
+import sorting.Insertion;
+import sorting.Selection;
+import sorting.SortingAlgorithm;
 
 public class SortingAlgorithmFactory {
 
