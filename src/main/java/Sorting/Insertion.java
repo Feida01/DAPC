@@ -1,6 +1,6 @@
 package Sorting;
 
-public class Insertion {
+public class Insertion implements SortingAlgorithm {
     public int[] sort(int[] unsortedArray) {
         int[] sortedArray;
         for (int i = 1; i < unsortedArray.length; i++) {
