@@ -1,6 +1,6 @@
 package Sorting;
 
-public class Selection {
+public class Selection implements SortingAlgorithm {
     public int[] sort(int[] unsortedArray) {
         int[] sortedArray;
         for (int i = 0; i < unsortedArray.length - 1; i++) {
